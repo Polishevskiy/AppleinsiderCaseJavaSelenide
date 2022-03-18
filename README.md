@@ -6,7 +6,7 @@
 ![JUnit5](https://user-images.githubusercontent.com/78253233/159060116-0ca96983-0a71-49ca-b920-1161103affc0.png)
 ![Github](https://user-images.githubusercontent.com/78253233/159060195-6c58b927-1153-4deb-800a-96ceead5317c.png)
 
-IntelliJ IDEA, Java, Selenide, Maven, JUnit5, Github
+IntelliJ IDEA, Java, Maven, Selenide, JUnit5, Github
 
 ## Test to compare the content of information in an href link 
 ```sh
