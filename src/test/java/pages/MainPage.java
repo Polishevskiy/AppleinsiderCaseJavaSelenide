@@ -1,10 +1,12 @@
+package pages;
+
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.Keys;
 import static com.codeborne.selenide.Selenide.$x;
 
 /**
- * Главная страница сайта appleinsider.ru
+ * Home page of appleinsider.ru
  */
 public class MainPage {
     private final SelenideElement testBoxInput = $x("//input[@type='text']");
@@ -14,8 +16,8 @@ public class MainPage {
     }
 
     /**
-     * Выполняется поиск на сайте среди статей и нажимается кнопка Enter
-     * @param searchString поисковая строка
+     * The site is searched among the articles and the Enter button is pressed
+     * @param searchString search string
      */
     public SearchPage search(String searchString){
         testBoxInput.setValue(searchString);

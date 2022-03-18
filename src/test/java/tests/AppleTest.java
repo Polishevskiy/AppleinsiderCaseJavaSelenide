@@ -1,7 +1,11 @@
+package tests;
+
+import core.Base;
 import org.junit.Assert;
 import org.junit.Test;
+import pages.MainPage;
 
-public class AppleTest extends BaseTest{
+public class AppleTest extends Base {
 
     private final static String BASE_URL = "https://appleinsider.ru/";
     private final static String SEARCH_STRING = "Чем iPhone 13 отличается от iPhone 12";
