@@ -8,11 +8,4 @@
 
 IntelliJ IDEA, Java, Maven, Selenide, JUnit5, Github
 
-## Test to compare the content of information in an href link 
-```sh
-1. Open the website "https://appleinsider.ru/"
-2. Click on the search button at the top right 
-3. Enter the value "What makes iPhone 13 different from iPhone 12"
-4. In the articles found, find the href attribute of the first article found 
-5. Make sure the href link contains the word "iphone-13"
-```
+## Read configuration file
